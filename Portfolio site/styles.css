@@ -1,0 +1,69 @@
+/*NAV Hover animations*/
+.underline-links a span {position: relative; display: initial; }
+
+.underline-links a span::before {
+    content: '';
+    position: absolute;
+              z-index: 0;
+    left: 0;
+    right: 100%;
+    bottom: -7px;
+    background: #1c4770;
+    height: 2.5px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.underline-links a span:hover:before {right: 0 !important;}
+
+/*Mobile Footer icons test*/
+@media screen and (max-width: 767px) {
+.footer-social .column {
+   width: auto !important;
+   max-width: none !important;
+   flex-grow: 1 !important;
+   flex-shrink: 1 !important;
+   flex-basis: auto !important;
+}
+
+.footer-social .row {
+   flex-wrap: nowrap !important;
+}
+
+
+
+
+/*media queries*/
+/*Home Page Background Image */
+@media screen and (max-width: 543px) {#content-6 #section_kb3god8ou {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/Main_Background_Mobile-1.jpg) !important;}
+}
+@media screen and (max-width: 767px) and (min-width: 544px) {#content-6 #section_kb3god8ou {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/Main_Background_Mobile-1.jpg) !important;}
+}
+/*Home Page Contact Image */
+@media screen and (max-width:543px) {#content-6 #section_wgq9c726y {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/Hello-Neon3-1.jpg) !important;}
+}
+@media screen and (max-width: 767px) and (min-width: 544px) {#content-6 #section_wgq9c726y {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/Hello-Neon3-1.jpg) !important;}
+}
+/*About Me Page Background Image */
+@media screen and (max-width: 543px) {#content-8 #section_qh6h6zd01 {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/AboutMe_Portrait_mobile.jpg) !important;}
+}
+@media screen and (max-width: 767px) and (min-width: 544px) {#content-8 #section_qh6h6zd01 {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/AboutMe_Portrait_mobile.jpg) !important;}
+}
+
+/*About Me Contact Image */
+@media screen and (max-width:543px) {#content-8 #section_vjhgvr4ip {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/Hello-Neon3-1.jpg) !important;}
+}
+@media screen and (max-width: 767px) and (min-width: 544px) {#content-8 #section_vjhgvr4ip {
+    background-image: url(http://www.designbytracy.ca/wp-content/uploads/2021/05/Hello-Neon3-1.jpg) !important;}
+}
